@@ -68,10 +68,9 @@ if src3[row_index][0] % 2 == 0 && src3[row_index][1]% 2 == 0
     end
     row_index +=1
   end
-  return src4
+  src4
 end
-  puts total_even_pairs(src3)
-  puts src3[1][1] % 2
+  
 
 
 
