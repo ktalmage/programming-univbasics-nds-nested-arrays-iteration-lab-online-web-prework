@@ -70,7 +70,7 @@ if src3[row_index][0] % 2 == 0 && src3[row_index][1]% 2 == 0
   end
   src4
 end
-  
+  puts total_even_pairs(src3)
 
 
 
