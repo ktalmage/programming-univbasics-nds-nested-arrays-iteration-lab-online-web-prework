@@ -53,7 +53,8 @@ end
   #end
 src3 = [
   [2,2],
-  [1,3]
+  [1,3],
+  [8,4]
   ]
 
 def total_even_pairs(src3)
