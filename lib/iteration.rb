@@ -58,7 +58,6 @@ src3 = [
   ]
 
 def total_even_pairs(src3)
-src4 = []
 row_index = 0
 total = 0
 total += src3[row_index][0] + src3[row_index][1] 
@@ -68,7 +67,7 @@ if src3[row_index][0] % 2 == 0 && src3[row_index][1]% 2 == 0
   end
     row_index +=1
   end
-  
+  total
 end
   puts total_even_pairs(src3)
 
