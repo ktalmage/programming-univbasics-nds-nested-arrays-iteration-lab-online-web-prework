@@ -64,7 +64,7 @@ total = src3[row_index][0] + src3[row_index][1]
   while row_index <src3.count do
 if src3[row_index][0] % 2 == 0 && src3[row_index][1]% 2 == 0
     src4 << total
-      row_index +=1 
+      
      else
     end
     #row_index +=1
@@ -72,7 +72,7 @@ if src3[row_index][0] % 2 == 0 && src3[row_index][1]% 2 == 0
   return src4
 end
   puts total_even_pairs(src3)
-  
+  puts src3[0][0] % 2
 
 
 
