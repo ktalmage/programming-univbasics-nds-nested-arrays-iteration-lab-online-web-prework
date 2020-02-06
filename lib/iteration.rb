@@ -64,10 +64,9 @@ total = src3[row_index][0] + src3[row_index][1]
   while row_index <src3.count do
 if src3[row_index][0] % 2 == 0 && src3[row_index][1]% 2 == 0
     src4 << total
-      
-     else
+      else
     end
-    #row_index +=1
+    row_index +=1
   end
   return src4
 end
