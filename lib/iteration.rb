@@ -60,6 +60,7 @@ src3 = [
 def total_even_pairs(src3)
 src4 = []
 row_index = 0
+total = 0
 total = src3[row_index][0] + src3[row_index][1] 
 
   while row_index <src3.count do
