@@ -65,11 +65,12 @@ total = src3[row_index][0] + src3[row_index][1]
 
   while row_index <src3.count do
 if src3[row_index][0] % 2 == 0 && src3[row_index][1]% 2 == 0
+  puts total
     else
     end
     row_index +=1
   end
-  total
+  
 end
   puts total_even_pairs(src3)
 
