@@ -46,6 +46,7 @@ end
 src2
 end
 
+puts find_greater_pair(src1)
 
 #src will be an array of [ [number1, number2], ... [numberN, numberM] ]
   # Produce a new Array that contains the larger number of each of the pairs
